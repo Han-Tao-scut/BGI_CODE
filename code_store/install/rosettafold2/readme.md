@@ -1,0 +1,1 @@
+#rosettafold2安装和测试
