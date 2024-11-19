@@ -1,6 +1,6 @@
 #!/bin/bash
 #环境，华大云平台
-
+#base image:miniforece_v1.0
 #创建目录，赋权限
 mkdir -p /home/stereonote
 chown -R 10000:100 /home/stereonote
