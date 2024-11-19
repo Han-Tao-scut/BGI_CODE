@@ -17,7 +17,7 @@ chmod 444 /etc/sudoers
 echo -e "stereonote\tALL=(ALL)\tNOPASSWD: ALL" >> /etc/sudoers
 
 #安装软件
-conda iinstall -c bioconda cd-hit
+conda install -c bioconda cd-hit -y
 conda install -c conda-forge parallel -y
 
 #清理缓存
