@@ -18,7 +18,7 @@
 https://cloud.stomics.tech/library/#/image/image-detail/i6N5KwNzxbABz?zone=sz
 ```
 
-在个人分析里面新建一个分析，使用刚才获取的镜像，选择所需要的配置![image-20250325225445645](https://github.com/Han-Tao-scut/photo/blob/master/屏幕截图 2025-03-25 225438.png)
+在个人分析里面新建一个分析，使用刚才获取的镜像，选择所需要的配置[image-20250325225445645](https://github.com/Han-Tao-scut/photo/blob/master/2025-03-25 225438.png)
 
 #### 准备工作
 
@@ -41,7 +41,7 @@ THREADS=8 #设置线程
 
 请将参考序列和双端测序的文件存放进入**$INPUT_DIR**
 
-![s](https://github.com/Han-Tao-scut/photo/blob/master/屏幕截图 2025-03-25 221000.png)
+![s](https://github.com/Han-Tao-scut/photo/blob/master/2025-03-25 221000.png)
 
 形如这样,但是不要求一定要满足**fq.gz,fq/fq.gz/fastq/fastq.gz**均可，但是前面的ID名一定要相同，如**FT100079151_L01_UDB-591**，这三个文件一定要相同，因为这是拆分不同样本的唯一ID。
 
@@ -63,6 +63,6 @@ bash /home/stereonote/hantao_NGS/code/NGS_DEF.sh FT100079151_L01_UDB-591 FT10007
 
 下以ID为文件名的文件中，一个样本一个文件
 
-![image-20250325224947320](https://github.com/Han-Tao-scut/photo/blob/master/屏幕截图 2025-03-25 224936.png)
+![image-20250325224947320](https://github.com/Han-Tao-scut/photo/blob/master/2025-03-25 224936.png)
 
 如果需要保存结果，请将output存放至/data/output
