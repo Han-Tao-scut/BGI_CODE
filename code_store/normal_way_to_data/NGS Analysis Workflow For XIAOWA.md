@@ -40,9 +40,7 @@ THREADS=8 #设置线程
 #### 上传数据
 
 请将参考序列和双端测序的文件存放进入**$INPUT_DIR**
-
 ![sjksdk](https://raw.githubusercontent.com/Han-Tao-scut/photo/master/sjksdk.png)
-
 形如这样,但是不要求一定要满足**fq.gz,fq/fq.gz/fastq/fastq.gz**均可，但是前面的ID名一定要相同，如**FT100079151_L01_UDB-591**，这三个文件一定要相同，因为这是拆分不同样本的唯一ID。
 
 #### 运行
